@@ -40,7 +40,7 @@ export function Formulario({ setUser }) {
 
         // Enviar los datos al backend para registrar el usuario
         try {
-            const response = await fetch('http://localhost:3001', {
+            const response = await fetch('https://backend-lastra.vercel.app/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
