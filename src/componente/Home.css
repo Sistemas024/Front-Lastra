@@ -4,8 +4,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-    background-color: #fff; /* Fondo blanco */
-    color: #0000ff; /* Texto azul */
+    color: #fff;
     text-align: center;
 }
 
