@@ -1,0 +1,49 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.welcome-message {
+    margin-bottom: auto;
+    text-align:center;
+}
+
+.welcome-message h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.welcome-message h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-self: center;
+    margin-top: auto;
+}
+
+.logout-button:hover {
+    background-color: #a7dfff;
+    transform: scale(1.05);
+}
+
+.logout-button:active {
+    background-color: #a7dfff;
+}
